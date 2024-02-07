@@ -18,4 +18,6 @@ class Dishes():
             menu = menu + f"{str(item['number'])}. {item['name']}, £{item['price']}| "
         menu.strip()
         return menu
+    
+    
 
